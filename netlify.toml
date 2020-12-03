@@ -5,3 +5,6 @@
   from = "/uuid"
   to = "/.netlify/functions/uuid"
   status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
