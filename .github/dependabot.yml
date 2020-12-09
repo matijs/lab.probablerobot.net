@@ -4,3 +4,8 @@ updates:
     directory: "/functions/uuid"
     schedule:
       interval: daily
+
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
