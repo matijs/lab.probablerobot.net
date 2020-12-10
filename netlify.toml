@@ -15,7 +15,7 @@
 		X-XSS-Protection = "1; mode=block"
 		X-Content-Type-Options = "nosniff"
 		Referrer-Policy = "no-referrer"
-		Strict-Transport-Security = "max-age=15768000; includeSubDomains; preload"
+		Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 		Content-Security-Policy = """\
 			default-src 'none'; \
 			frame-ancestors 'none'; \
