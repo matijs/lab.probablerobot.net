@@ -16,7 +16,7 @@
 	X-Content-Type-Options = "nosniff"
 	Referrer-Policy = "no-referrer"
 	Strict-Transport-Security = "max-age=15768000; includeSubDomains; preload"
-	Content-Security-Policy = "default-src 'self' https://lab.probablerobot.net; connect-src 'none'"
+	Content-Security-Policy = "default-src 'none' https://lab.probablerobot.net; base-uri 'self'; form-action 'none'; connect-src 'none'"
 
 [[plugins]]
   package = "@netlify/plugin-functions-install-core"
