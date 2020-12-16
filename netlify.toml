@@ -8,21 +8,21 @@
   status = 200
 
 [[headers]]
-	for = "/*"
+  for = "/*"
 
-	[headers.values]
-		X-Frame-Options = "DENY"
-		X-XSS-Protection = "1; mode=block"
-		X-Content-Type-Options = "nosniff"
-		Referrer-Policy = "no-referrer"
-		Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-		Content-Security-Policy = """\
-			default-src 'none'; \
-			frame-ancestors 'none'; \
-			base-uri 'self'; \
-			form-action 'none'; \
-			connect-src 'none' \
-		"""
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = """\
+      default-src 'none'; \
+      frame-ancestors 'none'; \
+      base-uri 'self'; \
+      form-action 'none'; \
+      connect-src 'none' \
+    """
 
 [[plugins]]
   package = "@netlify/plugin-functions-install-core"
