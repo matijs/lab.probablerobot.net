@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  width: 2560px;
+}
+
+div:not([data-netlify-deploy-id]) {
+  background-color: purple;
+  color: white;
+  border: 1px solid deeppink;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
