@@ -5,5 +5,5 @@
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://duckduckgo.com/favicon.ico</Image>
   <LongName>https://start.duckduckgo.com search</LongName>
-  <Url type="text/html" method="get" template="https://start.duckduckgo.com/?q={searchTerms}&amp;kak=-1&amp;kao=-1&amp;kaq=-1&amp;k1=-1&amp;kax=-1&amp;kap=-1&amp;kau=-1&amp;kz=-1&amp;kv=-1&amp;kk=-1&amp;kc=-1&amp;kbc=1"/>
+  <Url type="text/html" method="get" template="https://start.duckduckgo.com/?q={searchTerms}&amp;kak=-1&amp;kao=-1&amp;kaq=-1&amp;k1=-1&amp;kax=-1&amp;kap=-1&amp;kau=-1&amp;kz=-1&amp;kv=-1&amp;kk=-1&amp;kc=-1&amp;kbc=1&amp;kav=1&amp;kk=-1"/>
 </OpenSearchDescription>
