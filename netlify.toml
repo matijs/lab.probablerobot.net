@@ -23,6 +23,3 @@
       form-action 'none'; \
       connect-src 'none' \
     """
-
-[[plugins]]
-  package = "@netlify/plugin-functions-install-core"

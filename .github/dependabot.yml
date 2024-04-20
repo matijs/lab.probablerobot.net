@@ -1,14 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/functions/uuid"
-    schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "00:00"
-      timezone: "Etc/UTC"
-
-  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
