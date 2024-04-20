@@ -1,5 +1,8 @@
 import type { Config } from '@netlify/functions';
 import { v4 as uuidv4 } from 'uuid';
+import { v5 as uuidv5} from 'uuid';
+
+const unused = 42;
 
 export default async function (req: Request) {
   const url = new URL(req.url);
