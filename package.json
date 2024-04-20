@@ -5,6 +5,7 @@
     "prettier:fix": "prettier --write ."
   },
   "devDependencies": {
+    "netlify-cli": "17.22.1",
     "prettier": "3.2.5"
   }
 }
