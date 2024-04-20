@@ -1,11 +1,17 @@
 {
   "packageManager": "pnpm@9.0.4+sha256.caa915eaae9d9aefccf50ee8aeda25a2f8684d8f9d5c6e367eaf176d97c1f89e",
   "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write ."
   },
   "devDependencies": {
+    "@eslint/js": "9.1.1",
+    "eslint": "9.1.0",
+    "globals": "15.0.0",
     "netlify-cli": "17.22.1",
-    "prettier": "3.2.5"
+    "prettier": "3.2.5",
+    "typescript-eslint": "7.7.0"
   }
 }

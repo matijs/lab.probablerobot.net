@@ -1,4 +1,4 @@
-import type { Config, Context } from '@netlify/functions';
+import type { Config } from '@netlify/functions';
 import { v4 as uuidv4 } from 'uuid';
 
 export default async function (req: Request) {
