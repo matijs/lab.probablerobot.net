@@ -12,8 +12,7 @@ jobs:
           node-version-file: .node-version
           cache: pnpm
       - name: install
-        run: pnpm install
-      - name: lint
-        run: pnpm lint
-      - name: style
-        run: pnpm prettier
+        run: |
+          pnpm install
+          pnpm lint
+          pnpm prettier
