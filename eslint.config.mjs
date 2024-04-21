@@ -1,18 +1,14 @@
+import globals from 'globals';
 import eslint from '@eslint/js';
 import tsEslint from 'typescript-eslint';
-import globals from 'globals';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
-export default tsEslint.config(
+export default [
+  { languageOptions: { globals: { ...globals.node } } },
   eslint.configs.recommended,
   ...tsEslint.configs.recommended,
-  {
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-      },
-    },
-  },
+  eslintPluginPrettierRecommended,
   {
     ignores: ['**/.netlify'],
-  }
-);
+  },
+];

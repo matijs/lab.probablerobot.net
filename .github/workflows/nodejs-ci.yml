@@ -2,7 +2,7 @@ name: NodeJS CI
 on: pull_request
 
 jobs:
-  check:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.2
@@ -15,4 +15,3 @@ jobs:
         run: |
           pnpm install
           pnpm lint
-          pnpm prettier
