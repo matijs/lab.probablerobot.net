@@ -1,1 +1,1 @@
-{"dependencies":{"uuid":"9.0.1"},"devDependencies":{"@netlify/functions":"2.6.0","@types/uuid":"9.0.8"}}
+{"dependencies":{"uuid":"9.0.1"},"devDependencies":{"@netlify/functions":"2.6.3","@types/uuid":"9.0.8"}}

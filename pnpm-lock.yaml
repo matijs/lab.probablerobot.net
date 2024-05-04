@@ -40,8 +40,8 @@ importers:
         version: 9.0.1
     devDependencies:
       '@netlify/functions':
-        specifier: 2.6.0
-        version: 2.6.0
+        specifier: 2.6.3
+        version: 2.6.3(@opentelemetry/api@1.8.0)
       '@types/uuid':
         specifier: 9.0.8
         version: 9.0.8
@@ -528,8 +528,8 @@ packages:
     resolution: {integrity: sha512-4xTb/zuUT5SFpZH+RGKUV6pwrYyGS3L4emcrVi5u/nbJ/8yU8v8MdUdTGxoUhyeFw1kIp5C6vsru1fpU0ti0XA==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
-  '@netlify/functions@2.6.0':
-    resolution: {integrity: sha512-vU20tij0fb4nRGACqb+5SQvKd50JYyTyEhQetCMHdakcJFzjLDivvRR16u1G2Oy4A7xNAtGJF1uz8reeOtTVcQ==}
+  '@netlify/functions@2.6.3':
+    resolution: {integrity: sha512-7Z9gWyAuPI2NnBOvpYPD66KIWOgNznLz9BkyZ0c7qeRE6p23UCMVZ2VsrJpjPDgoJtKplGSBzASl6fQD7iEeWw==}
     engines: {node: '>=14.0.0'}
 
   '@netlify/git-utils@5.1.1':
@@ -632,10 +632,6 @@ packages:
   '@netlify/run-utils@5.1.1':
     resolution: {integrity: sha512-V2B8ZB19heVKa715uOeDkztxLH7uaqZ+9U5fV7BRzbQ2514DO5Vxj9hG0irzuRLfZXZZjp/chPUesv4VVsce/A==}
     engines: {node: ^14.16.0 || >=16.0.0}
-
-  '@netlify/serverless-functions-api@1.14.0':
-    resolution: {integrity: sha512-HUNETLNvNiC2J+SB/YuRwJA9+agPrc0azSoWVk8H85GC+YE114hcS5JW+dstpKwVerp2xILE3vNWN7IMXP5Q5Q==}
-    engines: {node: ^14.18.0 || >=16.0.0}
 
   '@netlify/serverless-functions-api@1.18.0':
     resolution: {integrity: sha512-VCU5btoGZ8M6iI7HSwpfZXCpBLKWFmRtq5xYt0K7dY96BZWVBmaZY6Tn+w4L2DrGXwAsIeOFNp8CHjVXfuCAkg==}
@@ -5317,9 +5313,11 @@ snapshots:
       - encoding
       - supports-color
 
-  '@netlify/functions@2.6.0':
+  '@netlify/functions@2.6.3(@opentelemetry/api@1.8.0)':
     dependencies:
-      '@netlify/serverless-functions-api': 1.14.0
+      '@netlify/serverless-functions-api': 1.18.0(@opentelemetry/api@1.8.0)
+    transitivePeerDependencies:
+      - '@opentelemetry/api'
 
   '@netlify/git-utils@5.1.1':
     dependencies:
@@ -5393,11 +5391,6 @@ snapshots:
   '@netlify/run-utils@5.1.1':
     dependencies:
       execa: 6.1.0
-
-  '@netlify/serverless-functions-api@1.14.0':
-    dependencies:
-      '@netlify/node-cookies': 0.1.0
-      urlpattern-polyfill: 8.0.2
 
   '@netlify/serverless-functions-api@1.18.0(@opentelemetry/api@1.8.0)':
     dependencies:
