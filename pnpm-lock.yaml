@@ -24,8 +24,8 @@ importers:
         specifier: 15.2.0
         version: 15.2.0
       netlify-cli:
-        specifier: 17.23.1
-        version: 17.23.1(@types/node@20.12.7)(picomatch@2.3.1)
+        specifier: 17.23.2
+        version: 17.23.2(@types/node@20.12.7)(picomatch@2.3.1)
       prettier:
         specifier: 3.2.5
         version: 3.2.5
@@ -1460,16 +1460,12 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chalk@5.2.0:
-    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+  chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
-
-  chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
-    engines: {node: '>= 8.10.0'}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -3324,8 +3320,8 @@ packages:
   nested-error-stacks@2.1.1:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
 
-  netlify-cli@17.23.1:
-    resolution: {integrity: sha512-MISg7qb1wVP0umvB0Tn6KhZUIB/HPph0w1OzzV4DP+Mm0MS+/t0wqzcYx0WJeLdJsLzywq2lfL2smttQz/6lwQ==}
+  netlify-cli@17.23.2:
+    resolution: {integrity: sha512-C/9gr4Gx5v4oONlzMGtk898AA6hIqe26XN4Fmbz537JIAIeJF86NoePljS4ukIlMu+5Kzr4J7maeDBhHVfRX1w==}
     engines: {node: '>=18.14.0'}
     hasBin: true
 
@@ -5164,7 +5160,7 @@ snapshots:
       '@opentelemetry/api': 1.8.0
       '@sindresorhus/slugify': 2.2.1
       ansi-escapes: 6.2.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       clean-stack: 4.2.0
       execa: 6.1.0
       fdir: 6.1.1(picomatch@2.3.1)
@@ -5229,7 +5225,7 @@ snapshots:
   '@netlify/config@20.12.3':
     dependencies:
       '@iarna/toml': 2.2.5
-      chalk: 5.2.0
+      chalk: 5.3.0
       cron-parser: 4.8.1
       deepmerge: 4.3.1
       dot-prop: 7.2.0
@@ -6249,7 +6245,7 @@ snapshots:
     dependencies:
       ansi-align: 3.0.1
       camelcase: 7.0.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       cli-boxes: 3.0.0
       string-width: 5.1.2
       type-fest: 2.19.0
@@ -6363,21 +6359,9 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@5.2.0: {}
+  chalk@5.3.0: {}
 
   chardet@0.7.0: {}
-
-  chokidar@3.5.3:
-    dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.3
 
   chokidar@3.6.0:
     dependencies:
@@ -6493,14 +6477,14 @@ snapshots:
 
   colors-option@3.0.0:
     dependencies:
-      chalk: 5.2.0
+      chalk: 5.3.0
       filter-obj: 3.0.0
       is-plain-obj: 4.1.0
       jest-validate: 27.5.1
 
   colors-option@4.5.0:
     dependencies:
-      chalk: 5.2.0
+      chalk: 5.3.0
       is-plain-obj: 4.1.0
 
   colors@1.4.0: {}
@@ -8141,7 +8125,7 @@ snapshots:
 
   log-symbols@5.1.0:
     dependencies:
-      chalk: 5.2.0
+      chalk: 5.3.0
       is-unicode-supported: 1.3.0
 
   log-update@5.0.1:
@@ -8375,7 +8359,7 @@ snapshots:
 
   nested-error-stacks@2.1.1: {}
 
-  netlify-cli@17.23.1(@types/node@20.12.7)(picomatch@2.3.1):
+  netlify-cli@17.23.2(@types/node@20.12.7)(picomatch@2.3.1):
     dependencies:
       '@bugsnag/js': 7.22.7
       '@fastify/static': 6.12.0
@@ -8396,8 +8380,8 @@ snapshots:
       backoff: 2.5.0
       better-opn: 3.0.2
       boxen: 7.1.1
-      chalk: 5.2.0
-      chokidar: 3.5.3
+      chalk: 5.3.0
+      chokidar: 3.6.0
       ci-info: 3.8.0
       clean-deep: 3.4.0
       commander: 10.0.1
@@ -8710,7 +8694,7 @@ snapshots:
 
   ora@6.3.1:
     dependencies:
-      chalk: 5.2.0
+      chalk: 5.3.0
       cli-cursor: 4.0.0
       cli-spinners: 2.9.2
       is-interactive: 2.0.0
@@ -9834,7 +9818,7 @@ snapshots:
   update-notifier@6.0.2:
     dependencies:
       boxen: 7.1.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       configstore: 6.0.0
       has-yarn: 3.0.0
       import-lazy: 4.0.0
