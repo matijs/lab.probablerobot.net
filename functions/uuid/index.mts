@@ -1,7 +1,7 @@
 import type { Config } from '@netlify/functions';
 import { v4 as uuidv4 } from 'uuid';
 
-export default async function (req: Request) {
+export default function (req: Request) {
   const url = new URL(req.url);
   const params = new URLSearchParams(url.search);
 
