@@ -1,5 +1,5 @@
 {
-  "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b",
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -9,9 +9,9 @@
   },
   "devDependencies": {
     "@eslint/js": "9.9.0",
+    "@types/eslint__js": "8.42.3",
     "eslint": "9.9.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.2.1",
     "globals": "15.9.0",
     "netlify-cli": "17.34.1",
     "prettier": "3.3.3",
