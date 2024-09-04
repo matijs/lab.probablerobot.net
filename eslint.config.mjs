@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
-import tseslint from 'typescript-eslint';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   // globally disable inline configuration, this also removes the need to use
@@ -11,10 +12,12 @@ export default tseslint.config(
     },
   },
   eslint.configs.recommended,
+  eslintPluginPerfectionist.configs['recommended-natural'],
   ...tseslint.configs.strict,
   {
     rules: {
       '@typescript-eslint/consistent-type-imports': ['error'],
+      'perfectionist/sort-objects': ['error', { partitionByNewLine: true }],
     },
   },
   eslintConfigPrettier,

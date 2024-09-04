@@ -1,5 +1,6 @@
 export default {
   singleQuote: true,
+
   overrides: [
     {
       files: ['*.yml', '*.yaml'],
