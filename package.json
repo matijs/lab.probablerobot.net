@@ -8,14 +8,14 @@
     "start": "netlify serve"
   },
   "devDependencies": {
-    "@eslint/js": "9.9.1",
+    "@eslint/js": "9.10.0",
     "@types/eslint__js": "8.42.3",
-    "eslint": "9.9.1",
+    "eslint": "9.10.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-perfectionist": "3.3.0",
+    "eslint-plugin-perfectionist": "3.4.0",
     "globals": "15.9.0",
-    "netlify-cli": "17.34.3",
+    "netlify-cli": "17.35.0",
     "prettier": "3.3.3",
-    "typescript-eslint": "8.3.0"
+    "typescript-eslint": "8.4.0"
   }
 }
