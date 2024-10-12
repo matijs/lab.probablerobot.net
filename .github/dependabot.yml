@@ -8,10 +8,12 @@ updates:
       time: "00:00"
       timezone: "Etc/UTC"
     groups:
-      dependencies:
-        dependency-type: "production"
-      devDependencies:
-        dependency-type: "development"
+      # group all patch and minor version updates in one pull request
+      minor-dependencies:
+        applies-to: "version-updates"
+        update-types:
+          - "minor"
+          - "patch"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
