@@ -4,10 +4,16 @@ import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  // globally disable inline configuration, this also removes the need to use
-  // `reportUnusedDisableDirectives` because these don't work anyway
   {
+    languageOptions: {
+      parserOptions: {
+        // make sure typescript-eslint stops warning about using an unsupported
+        // TypeScript version
+        warnOnUnsupportedTypeScriptVersion: false,
+      },
+    },
     linterOptions: {
+      // globally disable inline configuration
       noInlineConfig: true,
     },
   },
@@ -21,8 +27,8 @@ export default tseslint.config(
     },
   },
   eslintConfigPrettier,
-  // `ignores` on its own is equivalent to a global ignore
   {
+    // `ignores` on its own is equivalent to a global ignore
     ignores: ['**/.netlify/'],
   },
 );
