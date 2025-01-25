@@ -1,9 +1,14 @@
 import eslint from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
+import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
+  {
+    // `ignores` on its own is equivalent to a global ignore
+    ignores: ['**/.netlify/'],
+  },
   {
     languageOptions: {
       parserOptions: {
@@ -26,9 +31,17 @@ export default tseslint.config(
       'perfectionist/sort-objects': ['error', { partitionByNewLine: true }],
     },
   },
-  eslintConfigPrettier,
   {
-    // `ignores` on its own is equivalent to a global ignore
-    ignores: ['**/.netlify/'],
+    files: ['*.js'],
+    languageOptions: {
+      globals: { ...globals.node },
+    },
   },
+  {
+    files: ['**/src/**/*.js'],
+    languageOptions: {
+      globals: { ...globals.browser },
+    },
+  },
+  eslintConfigPrettier,
 );

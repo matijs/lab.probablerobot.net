@@ -6,6 +6,7 @@
     "lint:fix": "eslint --fix",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
+    "knip": "knip",
     "start": "netlify serve"
   },
   "devDependencies": {
@@ -16,6 +17,7 @@
     "eslint-config-prettier": "10.0.1",
     "eslint-plugin-perfectionist": "4.7.0",
     "globals": "15.14.0",
+    "knip": "5.43.3",
     "netlify-cli": "18.0.2",
     "prettier": "3.4.2",
     "typescript-eslint": "8.21.0"
