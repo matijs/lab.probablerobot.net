@@ -6,5 +6,6 @@ jobs:
   no-fixups:
     runs-on: ubuntu-latest
     steps:
-      - uses: matijs/no-fixups-action@ce01ac8ac99aa727e70cc55097d3602346b09b31 # v1.0.3
       - run: git rev-parse --verify "${GITHUB_REF}^{commit}"
+      - uses: matijs/no-fixups-action@ce01ac8ac99aa727e70cc55097d3602346b09b31 # v1.0.3
+      
