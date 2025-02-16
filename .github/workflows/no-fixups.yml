@@ -6,6 +6,10 @@ jobs:
   no-fixups:
     runs-on: ubuntu-latest
     steps:
+      - run: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
       - run: git rev-parse --verify "${GITHUB_REF}^{commit}"
       - uses: matijs/no-fixups-action@ce01ac8ac99aa727e70cc55097d3602346b09b31 # v1.0.3
       
