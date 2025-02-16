@@ -11,6 +11,5 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
-      - run: git rev-parse --verify "${GITHUB_REF}^{commit}"
-      - uses: matijs/no-fixups-action@ce01ac8ac99aa727e70cc55097d3602346b09b31 # v1.0.3
-      
+      - name: thing
+        run: git rev-parse --verify "${GITHUB_REF}^{commit}"      
