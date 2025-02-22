@@ -2,7 +2,7 @@
   "name": "@functions/uuid",
   "private": true,
   "dependencies": {
-    "uuid": "11.0.5"
+    "uuid": "11.1.0"
   },
   "devDependencies": {
     "@netlify/functions": "3.0.0",
