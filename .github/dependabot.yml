@@ -1,28 +1,28 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "00:00"
-      timezone: "Etc/UTC"
+      interval: 'weekly'
+      day: 'saturday'
+      time: '00:00'
+      timezone: 'Etc/UTC'
     groups:
       # group all patch and minor version updates in one pull request
       minor-dependencies:
-        applies-to: "version-updates"
+        applies-to: 'version-updates'
         update-types:
-          - "minor"
-          - "patch"
+          - 'minor'
+          - 'patch'
     ignore:
       # keep @types/node in line with the current LTS node version
-      - dependency-name: "@types/node"
+      - dependency-name: '@types/node'
         update-types:
-          - "version-update:semver-major"
-  - package-ecosystem: "github-actions"
-    directory: "/"
+          - 'version-update:semver-major'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "00:00"
-      timezone: "Etc/UTC"
+      interval: 'weekly'
+      day: 'saturday'
+      time: '00:00'
+      timezone: 'Etc/UTC'
