@@ -12,8 +12,8 @@ importers:
         specifier: 9.21.0
         version: 9.21.0
       '@types/node':
-        specifier: 22.13.7
-        version: 22.13.7
+        specifier: 22.13.8
+        version: 22.13.8
       eslint:
         specifier: 9.21.0
         version: 9.21.0(jiti@2.4.2)
@@ -28,10 +28,10 @@ importers:
         version: 16.0.0
       knip:
         specifier: 5.45.0
-        version: 5.45.0(@types/node@22.13.7)(typescript@5.8.2)
+        version: 5.45.0(@types/node@22.13.8)(typescript@5.8.2)
       netlify-cli:
         specifier: 19.0.0
-        version: 19.0.0(@types/node@22.13.7)(picomatch@4.0.2)
+        version: 19.0.0(@types/node@22.13.8)(picomatch@4.0.2)
       prettier:
         specifier: 3.5.2
         version: 3.5.2
@@ -953,8 +953,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.13.7':
-    resolution: {integrity: sha512-oU2q+BsQldB9lYxHNp/5aZO+/Bs0Usa74Abo9mAKulz4ahQyXRHK6UVKYIN8KSC8HXwhWSi7b49JnX+txuac0w==}
+  '@types/node@22.13.8':
+    resolution: {integrity: sha512-G3EfaZS+iOGYWLLRCEAXdWK9my08oHNZ+FHluRiggIYJPOXzhOiDgpVCUHaUvyIC5/fj7C/p637jdzC666AOKQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4958,7 +4958,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.13.7
+      '@types/node': 22.13.8
       '@types/yargs': 16.0.9
       chalk: 4.1.2
 
@@ -5006,7 +5006,7 @@ snapshots:
       yaml: 2.7.0
       yargs: 17.7.2
 
-  '@netlify/build@29.58.10(@opentelemetry/api@1.8.0)(@types/node@22.13.7)(picomatch@4.0.2)':
+  '@netlify/build@29.58.10(@opentelemetry/api@1.8.0)(@types/node@22.13.8)(picomatch@4.0.2)':
     dependencies:
       '@bugsnag/js': 7.25.0
       '@netlify/blobs': 7.4.0
@@ -5063,7 +5063,7 @@ snapshots:
       strip-ansi: 7.1.0
       supports-color: 9.4.0
       terminal-link: 3.0.0
-      ts-node: 10.9.2(@types/node@22.13.7)(typescript@5.8.2)
+      ts-node: 10.9.2(@types/node@22.13.8)(typescript@5.8.2)
       typescript: 5.8.2
       uuid: 9.0.1
       yargs: 17.7.2
@@ -5605,7 +5605,7 @@ snapshots:
 
   '@types/http-proxy@1.17.16':
     dependencies:
-      '@types/node': 22.13.7
+      '@types/node': 22.13.8
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -5619,7 +5619,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.13.7':
+  '@types/node@22.13.8':
     dependencies:
       undici-types: 6.20.0
 
@@ -5639,7 +5639,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.13.7
+      '@types/node': 22.13.8
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.25.0(@typescript-eslint/parser@8.25.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)':
@@ -7746,11 +7746,11 @@ snapshots:
 
   kind-of@6.0.3: {}
 
-  knip@5.45.0(@types/node@22.13.7)(typescript@5.8.2):
+  knip@5.45.0(@types/node@22.13.8)(typescript@5.8.2):
     dependencies:
       '@nodelib/fs.walk': 3.0.1
       '@snyk/github-codeowners': 1.1.0
-      '@types/node': 22.13.7
+      '@types/node': 22.13.8
       easy-table: 1.2.0
       enhanced-resolve: 5.18.1
       fast-glob: 3.3.3
@@ -8063,12 +8063,12 @@ snapshots:
 
   nested-error-stacks@2.1.1: {}
 
-  netlify-cli@19.0.0(@types/node@22.13.7)(picomatch@4.0.2):
+  netlify-cli@19.0.0(@types/node@22.13.8)(picomatch@4.0.2):
     dependencies:
       '@bugsnag/js': 8.2.0
       '@fastify/static': 7.0.4
       '@netlify/blobs': 8.1.1
-      '@netlify/build': 29.58.10(@opentelemetry/api@1.8.0)(@types/node@22.13.7)(picomatch@4.0.2)
+      '@netlify/build': 29.58.10(@opentelemetry/api@1.8.0)(@types/node@22.13.8)(picomatch@4.0.2)
       '@netlify/build-info': 8.0.0
       '@netlify/config': 20.21.7
       '@netlify/edge-bundler': 12.3.2(supports-color@9.4.0)
@@ -9270,14 +9270,14 @@ snapshots:
     dependencies:
       typescript: 5.8.2
 
-  ts-node@10.9.2(@types/node@22.13.7)(typescript@5.8.2):
+  ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.7
+      '@types/node': 22.13.8
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
