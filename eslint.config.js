@@ -1,14 +1,12 @@
-import eslint from '@eslint/js';
+import js from '@eslint/js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist';
+import { globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  {
-    // `ignores` on its own is equivalent to a global ignore
-    ignores: ['**/.netlify/'],
-  },
+  globalIgnores(['**/.netlify/']),
   {
     languageOptions: {
       parserOptions: {
@@ -22,7 +20,7 @@ export default tseslint.config(
       noInlineConfig: true,
     },
   },
-  eslint.configs.recommended,
+  js.configs.recommended,
   eslintPluginPerfectionist.configs['recommended-natural'],
   ...tseslint.configs.strict,
   {
