@@ -6,8 +6,10 @@ on:
     # run at 01:01 every Friday
     - cron: 1 1 * * 5
 
+permissions: {}
+
 jobs:
-  workflows:
+  delete-workflow-runs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/create-github-app-token@21cfef2b496dd8ef5b904c159339626a10ad380e # 1.11.6
@@ -17,8 +19,11 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - run: |
-         a_week_ago=$(date --utc --date "7 days ago" +%Y-%m-%dT%H:%M:%S%z)
-         runs=$(gh run list --limit 1000 --json createdAt,databaseId --jq ".[] | select(.createdAt < \"$a_week_ago\") | .databaseId")
-         for run in "$runs"; do gh run delete "$run"; done
+          seven_days_ago=$(date --utc --date "7 days ago" +%Y-%m-%dT%H:%M:%S%z)
+          runs=$(gh run list --limit 1000 --json createdAt,databaseId --jq ".[] | select(.createdAt < \"$seven_days_ago\") | .databaseId")
+          for run in $runs
+          do
+            gh run delete $run
+          done
         env:
           GH_TOKEN: ${{ steps.create-github-app-token.outputs.token }}
