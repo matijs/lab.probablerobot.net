@@ -20,10 +20,7 @@ jobs:
       - run: |
           seven_days_ago=$(date --utc --date "7 days ago" +%Y-%m-%dT%H:%M:%S%z)
           runs=$(gh run list --limit 1000 --json createdAt,databaseId --jq ".[] | select(.createdAt < \"$seven_days_ago\") | .databaseId")
-          for run in $runs
-          do
-            gh run delete $run
-          done
+          for run in $runs; do gh run delete $run; done
         env:
           GH_REPO: ${{ github.repository }}
           GH_TOKEN: ${{ steps.create-github-app-token.outputs.token }}
