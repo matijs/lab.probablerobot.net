@@ -1,4 +1,4 @@
-name: NodeJS CI
+name: CI
 
 on: pull_request
 
@@ -10,6 +10,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  no-fixups:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: matijs/no-fixups-action@e80ec9a460eb369f99385d0a11347f28da6ca0f6 # v1.1.1
+
   lint:
     runs-on: ubuntu-latest
     steps:
