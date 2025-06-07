@@ -3,8 +3,8 @@ name: Housekeeping
 on:
   workflow_dispatch:
   schedule:
-    # run at 01:01 every Friday
-    - cron: 1 1 * * 5
+    # run at 01:01 every Friday, the asterisk has special meaning in YAML so this must be quoted
+    - cron: '1 1 * * 5'
 
 permissions: {}
 
