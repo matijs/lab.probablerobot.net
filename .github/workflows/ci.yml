@@ -26,4 +26,5 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm run lint
+      - run: pnpm run prettier
       - run: pnpm run knip
