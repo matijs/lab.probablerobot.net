@@ -1,4 +1,15 @@
 packages:
   - functions/*
+
+ignoredBuiltDependencies:
+  - unix-dgram
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - netlify-cli
+  - sharp
+
 saveExact: true
+
 savePrefix: ''
