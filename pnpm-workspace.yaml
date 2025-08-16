@@ -8,6 +8,7 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
   - netlify-cli
+  - oxc-resolver
   - sharp
 
 saveExact: true
