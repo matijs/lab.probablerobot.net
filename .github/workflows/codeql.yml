@@ -2,9 +2,11 @@ name: CodeQL Advanced
 
 on:
   push:
-    branches: main
+    branches:
+      - main
   pull_request:
-    branches: main
+    branches:
+      - main
   schedule:
     - cron: '28 8 * * 1'
 
@@ -30,6 +32,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        with:
+          # No need for git after this step
+          persist-credentials: false
       - uses: github/codeql-action/init@df559355d593797519d70b90fc8edd5db049e7a2 # v3.29.5
         with:
           languages: ${{ matrix.language }}
