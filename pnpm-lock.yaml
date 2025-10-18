@@ -49,8 +49,8 @@ importers:
         version: 13.0.0
     devDependencies:
       '@netlify/functions':
-        specifier: 4.3.0
-        version: 4.3.0
+        specifier: 5.0.0
+        version: 5.0.0
 
 packages:
 
@@ -622,8 +622,8 @@ packages:
     resolution: {integrity: sha512-RkvLcfa8Q4Ff19Qgzhfb0ORDL3PZXI5WJfMwEjjjSOW3HKPRrd+JTOEO+fgkScuzkMhG/DzvvTUs/JRpjWZmXw==}
     engines: {node: '>=18.14.0'}
 
-  '@netlify/functions@4.3.0':
-    resolution: {integrity: sha512-m00J4hO/AL+1mAD4jCia1kg2jIoO3S9+DXCge58n5tTqPlWt42Vgig5zm0ICJoAyjMKw2bGzfVw9a/s/x6d1+Q==}
+  '@netlify/functions@5.0.0':
+    resolution: {integrity: sha512-gyKzl+P5SPp6P4iqykwPagSy7ODgRoQqi9TkjFJjM74FVJgxdiBQoLAmz+Pjl7kE5avJWtIvlQ+akAFaChekQQ==}
     engines: {node: '>=18.0.0'}
 
   '@netlify/git-utils@6.0.2':
@@ -4940,26 +4940,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/functions@4.3.0':
+  '@netlify/functions@5.0.0':
     dependencies:
-      '@netlify/blobs': 10.1.0
-      '@netlify/dev-utils': 4.3.0
       '@netlify/types': 2.1.0
-      '@netlify/zip-it-and-ship-it': 14.1.8(supports-color@10.2.2)
-      cron-parser: 4.9.0
-      decache: 4.6.2
-      extract-zip: 2.0.1
-      is-stream: 4.0.1
-      jwt-decode: 4.0.0
-      lambda-local: 2.2.0
-      read-package-up: 11.0.0
-      source-map-support: 0.5.21
-    transitivePeerDependencies:
-      - bare-abort-controller
-      - encoding
-      - react-native-b4a
-      - rollup
-      - supports-color
 
   '@netlify/git-utils@6.0.2':
     dependencies:
