@@ -7,6 +7,8 @@ updates:
       day: 'saturday'
       time: '00:00'
       timezone: 'Etc/UTC'
+    cooldown:
+      default-days: 5
     groups:
       # group all patch and minor version updates in one pull request
       minor-dependencies:
@@ -26,3 +28,5 @@ updates:
       day: 'saturday'
       time: '00:00'
       timezone: 'Etc/UTC'
+    cooldown:
+      default-days: 5

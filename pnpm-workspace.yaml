@@ -2,14 +2,13 @@ packages:
   - functions/*
 
 ignoredBuiltDependencies:
-  - unix-dgram
-
-onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
   - netlify-cli
-  - oxc-resolver
   - sharp
+  - unix-dgram
+
+minimumReleaseAge: 7200
 
 saveExact: true
 
