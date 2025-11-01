@@ -13,7 +13,7 @@
   "devDependencies": {
     "@eslint/js": "9.38.0",
     "@eslint/json": "0.13.2",
-    "@types/node": "22.18.11",
+    "@types/node": "24.0.0",
     "eslint": "9.38.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-perfectionist": "4.15.1",
