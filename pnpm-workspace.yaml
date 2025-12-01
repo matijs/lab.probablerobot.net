@@ -10,6 +10,9 @@ ignoredBuiltDependencies:
 
 minimumReleaseAge: 7200
 
+overrides:
+  node-forge: ^1.3.2
+
 saveExact: true
 
 savePrefix: ''
