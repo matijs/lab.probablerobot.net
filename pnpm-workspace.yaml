@@ -13,7 +13,6 @@ minimumReleaseAgeExclude:
   - jws
 
 overrides:
-  node-forge: ^1.3.2
   jws: ^3.2.3
 
 saveExact: true
