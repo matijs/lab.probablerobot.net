@@ -17,7 +17,7 @@
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-perfectionist": "5.1.0",
-    "globals": "16.5.0",
+    "globals": "17.0.0",
     "knip": "5.78.0",
     "netlify-cli": "23.13.0",
     "prettier": "3.7.4",
