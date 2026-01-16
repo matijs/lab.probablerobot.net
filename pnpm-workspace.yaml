@@ -12,10 +12,14 @@ minimumReleaseAge: 7200
 minimumReleaseAgeExclude:
   - jws
   - qs
+  - h3
+  - ufo
 
 overrides:
   jws: ^3.2.3
   qs: ^6.14.1
+  h3: ^1.15.5
+  ufo: ^1.6.3
 
 saveExact: true
 
