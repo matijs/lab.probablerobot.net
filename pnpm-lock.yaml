@@ -21,8 +21,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       '@types/node':
-        specifier: 24.10.6
-        version: 24.10.6
+        specifier: 24.10.7
+        version: 24.10.7
       eslint:
         specifier: 9.39.2
         version: 9.39.2(jiti@2.6.1)
@@ -37,10 +37,10 @@ importers:
         version: 17.0.0
       knip:
         specifier: 5.80.2
-        version: 5.80.2(@types/node@24.10.6)(typescript@5.9.3)
+        version: 5.80.2(@types/node@24.10.7)(typescript@5.9.3)
       netlify-cli:
         specifier: 23.13.3
-        version: 23.13.3(@types/node@24.10.6)(picomatch@4.0.3)
+        version: 23.13.3(@types/node@24.10.7)(picomatch@4.0.3)
       prettier:
         specifier: 3.7.4
         version: 3.7.4
@@ -1217,8 +1217,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@24.10.6':
-    resolution: {integrity: sha512-B8h60xgJMR/xmgyX9fncRzEW9gCxoJjdenUhke2v1JGOd/V66KopmWrLPXi5oUI4VuiGK+d+HlXJjDRZMj21EQ==}
+  '@types/node@24.10.7':
+    resolution: {integrity: sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4808,12 +4808,12 @@ snapshots:
 
   '@import-maps/resolve@2.0.0': {}
 
-  '@inquirer/external-editor@1.0.3(@types/node@24.10.6)':
+  '@inquirer/external-editor@1.0.3(@types/node@24.10.7)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4897,7 +4897,7 @@ snapshots:
       yaml: 2.8.2
       yargs: 17.7.2
 
-  '@netlify/build@35.5.9(@opentelemetry/api@1.8.0)(@types/node@24.10.6)(picomatch@4.0.3)':
+  '@netlify/build@35.5.9(@opentelemetry/api@1.8.0)(@types/node@24.10.7)(picomatch@4.0.3)':
     dependencies:
       '@bugsnag/js': 8.6.0
       '@netlify/blobs': 10.5.0(supports-color@10.2.2)
@@ -4945,7 +4945,7 @@ snapshots:
       string-width: 7.2.0
       supports-color: 10.2.2
       terminal-link: 4.0.0
-      ts-node: 10.9.2(@types/node@24.10.6)(typescript@5.9.3)
+      ts-node: 10.9.2(@types/node@24.10.7)(typescript@5.9.3)
       typescript: 5.9.3
       uuid: 11.1.0
       yaml: 2.8.2
@@ -5590,11 +5590,11 @@ snapshots:
 
   '@types/http-proxy@1.17.17':
     dependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@24.10.6':
+  '@types/node@24.10.7':
     dependencies:
       undici-types: 7.16.0
 
@@ -5606,7 +5606,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.52.0(@typescript-eslint/parser@8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
@@ -7220,18 +7220,18 @@ snapshots:
 
   ini@4.1.1: {}
 
-  inquirer-autocomplete-prompt@1.4.0(inquirer@8.2.7(@types/node@24.10.6)):
+  inquirer-autocomplete-prompt@1.4.0(inquirer@8.2.7(@types/node@24.10.7)):
     dependencies:
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
-      inquirer: 8.2.7(@types/node@24.10.6)
+      inquirer: 8.2.7(@types/node@24.10.7)
       run-async: 2.4.1
       rxjs: 6.6.7
 
-  inquirer@8.2.7(@types/node@24.10.6):
+  inquirer@8.2.7(@types/node@24.10.7):
     dependencies:
-      '@inquirer/external-editor': 1.0.3(@types/node@24.10.6)
+      '@inquirer/external-editor': 1.0.3(@types/node@24.10.7)
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       cli-cursor: 3.1.0
@@ -7447,10 +7447,10 @@ snapshots:
 
   kind-of@6.0.3: {}
 
-  knip@5.80.2(@types/node@24.10.6)(typescript@5.9.3):
+  knip@5.80.2(@types/node@24.10.7)(typescript@5.9.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
       fast-glob: 3.3.3
       formatly: 0.3.0
       jiti: 2.6.1
@@ -7723,13 +7723,13 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  netlify-cli@23.13.3(@types/node@24.10.6)(picomatch@4.0.3):
+  netlify-cli@23.13.3(@types/node@24.10.7)(picomatch@4.0.3):
     dependencies:
       '@fastify/static': 7.0.4
       '@netlify/ai': 0.3.4(@netlify/api@14.0.12)
       '@netlify/api': 14.0.12
       '@netlify/blobs': 10.1.0
-      '@netlify/build': 35.5.9(@opentelemetry/api@1.8.0)(@types/node@24.10.6)(picomatch@4.0.3)
+      '@netlify/build': 35.5.9(@opentelemetry/api@1.8.0)(@types/node@24.10.7)(picomatch@4.0.3)
       '@netlify/build-info': 10.3.0
       '@netlify/config': 24.2.0
       '@netlify/dev-utils': 4.3.2
@@ -7780,8 +7780,8 @@ snapshots:
       http-proxy: 1.18.1(debug@4.4.3)
       http-proxy-middleware: 2.0.9(debug@4.4.3)
       https-proxy-agent: 7.0.6(supports-color@10.2.2)
-      inquirer: 8.2.7(@types/node@24.10.6)
-      inquirer-autocomplete-prompt: 1.4.0(inquirer@8.2.7(@types/node@24.10.6))
+      inquirer: 8.2.7(@types/node@24.10.7)
+      inquirer-autocomplete-prompt: 1.4.0(inquirer@8.2.7(@types/node@24.10.7))
       ipx: 3.1.1(@netlify/blobs@10.1.0)
       is-docker: 3.0.0
       is-stream: 4.0.1
@@ -8796,14 +8796,14 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-node@10.9.2(@types/node@24.10.6)(typescript@5.9.3):
+  ts-node@10.9.2(@types/node@24.10.7)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 24.10.6
+      '@types/node': 24.10.7
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
