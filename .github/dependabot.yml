@@ -11,7 +11,7 @@ updates:
       default-days: 5
     groups:
       # group all patch and minor version updates in one pull request
-      minor-dependencies:
+      patch-and-minor:
         applies-to: 'version-updates'
         update-types:
           - 'minor'
