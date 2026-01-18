@@ -1,32 +1,32 @@
 version: 2
+
 updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      day: 'saturday'
-      time: '00:00'
-      timezone: 'Etc/UTC'
+      interval: 'cron'
+      # Run every Saturday at 00:00.
+      cronjob: '0 0 * * 6'
     cooldown:
       default-days: 5
     groups:
-      # group all patch and minor version updates in one pull request
+      # Group patch and minor version updates in a single pull request.
       patch-and-minor:
         applies-to: 'version-updates'
         update-types:
           - 'minor'
           - 'patch'
     ignore:
-      # keep @types/node in line with the current LTS node version
+      # Do not update @types/node to a new major version automatically.
       - dependency-name: '@types/node'
         update-types:
           - 'version-update:semver-major'
+
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      day: 'saturday'
-      time: '00:00'
-      timezone: 'Etc/UTC'
+      interval: 'cron'
+      # Run every Saturday at 00:00.
+      cronjob: '0 0 * * 6'
     cooldown:
       default-days: 5
