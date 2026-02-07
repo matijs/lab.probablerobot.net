@@ -17,10 +17,10 @@
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-perfectionist": "5.4.0",
-    "globals": "17.1.0",
+    "globals": "17.3.0",
     "knip": "5.82.1",
-    "netlify-cli": "23.13.5",
+    "netlify-cli": "23.14.0",
     "prettier": "3.8.1",
-    "typescript-eslint": "8.53.1"
+    "typescript-eslint": "8.54.0"
   }
 }
