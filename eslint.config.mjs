@@ -1,12 +1,11 @@
 import js from '@eslint/js';
 import json from '@eslint/json';
 import eslintConfigPrettier from 'eslint-config-prettier';
-import perfectionist from 'eslint-plugin-perfectionist';
-import { globalIgnores } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
   globalIgnores(['**/.netlify/']),
   {
     languageOptions: {
@@ -32,15 +31,6 @@ export default tseslint.config(
     extends: [tseslint.configs.strict],
     rules: {
       '@typescript-eslint/consistent-type-imports': ['error'],
-    },
-  },
-  {
-    name: 'perfectionist',
-    files: ['**/*.{js,cjs,mjs,ts}'],
-    extends: [perfectionist.configs['recommended-natural']],
-    rules: {
-      // Sorting objects is often annoying
-      'perfectionist/sort-objects': 'off',
     },
   },
   {
