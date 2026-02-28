@@ -10,14 +10,10 @@ ignoredBuiltDependencies:
 
 minimumReleaseAge: 7200
 minimumReleaseAgeExclude:
-  # added 20260131
-  - tar
 
 overrides:
   # added 20260131
   lodash: ^4.17.23
-  # added 20260131
-  tar: ^7.5.7
 
 saveExact: true
 
