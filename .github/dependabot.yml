@@ -8,7 +8,7 @@ updates:
       # Run every Saturday at 00:00.
       cronjob: '0 0 * * 6'
     cooldown:
-      default-days: 5
+      default-days: 7
     groups:
       # Group patch and minor version updates in a single pull request.
       patch-and-minor:
@@ -29,4 +29,4 @@ updates:
       # Run every Saturday at 00:00.
       cronjob: '0 0 * * 6'
     cooldown:
-      default-days: 5
+      default-days: 7

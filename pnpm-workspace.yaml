@@ -8,7 +8,7 @@ ignoredBuiltDependencies:
   - sharp
   - unix-dgram
 
-minimumReleaseAge: 7200
+minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
   - flatted
 
