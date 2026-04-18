@@ -6,7 +6,6 @@ settings:
 
 overrides:
   lodash: ^4.17.23
-  flatted: ^3.4.2
 
 importers:
 

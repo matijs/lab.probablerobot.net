@@ -10,13 +10,10 @@ ignoredBuiltDependencies:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - flatted
 
 overrides:
   # added 20260131
   'lodash': ^4.17.23
-  # added 20260322
-  'flatted': ^3.4.2
 
 saveExact: true
 
