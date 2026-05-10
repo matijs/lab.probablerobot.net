@@ -9,10 +9,14 @@ allowBuilds:
   unix-dgram: false
 
 minimumReleaseAge: 10080 # 7 days in minutes
+minimumReleaseAgeExclude:
+  - 'fast-uri'
 
 overrides:
   # added 20260131
   'lodash': ^4.17.23
+  # added 20260510
+  'fast-uri': ^3.1.1
 
 saveExact: true
 
