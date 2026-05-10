@@ -1,15 +1,14 @@
 packages:
   - functions/*
 
-ignoredBuiltDependencies:
-  - '@parcel/watcher'
-  - esbuild
-  - netlify-cli
-  - sharp
-  - unix-dgram
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  netlify-cli: false
+  sharp: false
+  unix-dgram: false
 
 minimumReleaseAge: 10080 # 7 days in minutes
-minimumReleaseAgeExclude:
 
 overrides:
   # added 20260131
