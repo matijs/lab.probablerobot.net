@@ -6,6 +6,6 @@
     "uuid": "14.0.0"
   },
   "devDependencies": {
-    "@netlify/functions": "5.2.1"
+    "@netlify/functions": "5.2.2"
   }
 }
