@@ -14,12 +14,12 @@
     "@eslint/js": "10.0.1",
     "@eslint/json": "2.0.0",
     "@types/node": "24.13.2",
-    "eslint": "10.5.0",
+    "eslint": "10.6.0",
     "eslint-config-prettier": "10.1.8",
-    "globals": "17.6.0",
-    "knip": "6.17.1",
+    "globals": "17.7.0",
+    "knip": "6.21.0",
     "netlify-cli": "26.1.0",
-    "prettier": "3.8.4",
-    "typescript-eslint": "8.61.1"
+    "prettier": "3.8.5",
+    "typescript-eslint": "8.62.0"
   }
 }
