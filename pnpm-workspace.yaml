@@ -17,6 +17,8 @@ overrides:
   'lodash': ^4.17.23
   # added 20260510
   'fast-uri': ^3.1.1
+  # added 20261010
+  'sharp': '>=0.35.0'
 
 saveExact: true
 
