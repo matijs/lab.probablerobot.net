@@ -12,15 +12,15 @@
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
-    "@eslint/json": "2.1.0",
-    "@types/node": "24.19.1",
+    "@eslint/json": "2.1.1",
+    "@types/node": "24.19.2",
     "eslint": "10.12.0",
     "eslint-config-prettier": "10.1.8",
     "globals": "17.13.0",
-    "knip": "6.39.0",
-    "netlify-cli": "27.10.2",
+    "knip": "6.41.0",
+    "netlify-cli": "27.12.0",
     "prettier": "3.9.9",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.71.0"
+    "typescript-eslint": "8.71.1"
   }
 }
