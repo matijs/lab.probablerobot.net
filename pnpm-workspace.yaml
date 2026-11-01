@@ -11,6 +11,7 @@ allowBuilds:
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
   - 'fast-uri'
+  - 'follow-redirects'
 minimumReleaseAgeExcludePrune: true
 
 overrides:
@@ -22,6 +23,8 @@ overrides:
   'sharp': '>=0.35.0'
   # added 20261031
   'toml': '>=5.0.1'
+  # added 20261101
+  'follow-redirects': '^1.16.2'
 
 saveExact: true
 
